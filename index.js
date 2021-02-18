@@ -28,12 +28,12 @@ const generateHTML = (answers) =>
 <body>
   <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="display-4">Hi! My name is ${answers.name}</h1>
-    <p class="lead">I am from ${answers.location}.</p>
-    <h3>Example heading <span class="badge badge-secondary">Contact Me</span></h3>
+    <h1 class="display-4">${answers.title}</h1>
+    <p class="lead">${answers.description}.</p>
+    <h3>Example heading <span class="badge badge-secondary">${answers.license}</span></h3>
     <ul class="list-group">
-      <li class="list-group-item">My GitHub username is ${answers.github}</li>
-      <li class="list-group-item">LinkedIn: ${answers.linkedin}</li>
+      <li class="list-group-item">My GitHub username is ${answers.githubName}</li>
+      <li class="list-group-item">Email: ${answers.email}</li>
     </ul>
   </div>
 </div>

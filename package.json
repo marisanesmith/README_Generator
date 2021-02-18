@@ -1,14 +1,24 @@
 {
-  "name": "static-site",
+  "name": "readme_generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "A application that will allow users to enter in their information which will populate into a readme file which they can use for their project.",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marisanesmith/README_Generator.git"
+  },
+  "keywords": [
+    "readme"
+  ],
+  "author": "Marisa NeSmith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marisanesmith/README_Generator/issues"
+  },
+  "homepage": "https://github.com/marisanesmith/README_Generator#readme"
 }
