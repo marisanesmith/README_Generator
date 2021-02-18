@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "A application that will allow users to enter in their information which will populate into a readme file which they can use for their project.",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.3"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
