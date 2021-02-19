@@ -2,12 +2,11 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const path = require("path");
-const generateMarkdown = require("./utils/generateMarkdown");
 
 const generateReadme = (answers) =>
-
 `# ${answers.title}
-License: ${answers.license}
+
+![GitHub License](https://img.shields.io/badge/license-${answers.license}-blue.svg)<br>
 
 ${answers.description}
 
@@ -32,7 +31,8 @@ ${answers.usage}
 * ${answers.test}
 
 ## License
-${answers.license}
+![GitHub License](https://img.shields.io/badge/license-${answers.license}-blue.svg)\n
+
 You can find out more about the ${answers.license} license on the open source page [here](https://www.opensource.org/licenses/${answers.license})
 
 ## Questions
@@ -94,14 +94,9 @@ inquirer
 ])
 .then((answers) => {
     const createReadme = generateReadme(answers);
+    // generateLicense(answers.license)
 
     fs.writeFile('README.md', createReadme, (err) =>
     err ? console.log(err) : console.log('Successfully created README file!')
     );
 });
-
-  // TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
