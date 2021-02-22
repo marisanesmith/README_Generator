@@ -1,8 +1,8 @@
-# pro
+# A Node Application
 
 ![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)<br>
 
-pro
+This project allows a developer to quickly build a README file with their own content, badges and description of the application for the user.
 
 Table of Contents
 * [Installation](#Installation)
@@ -13,16 +13,16 @@ Table of Contents
 * [Questions](#Questions)
 
 ## Installation
-pro
+The project requires the use of two npm packages: inquirer and fs.
 
 ## Usage
-pro
+You can easily use this application by inputing your data info the questions that are prompted to you  
 
 ## Contribution
-* pro
+* In order to contribute to the applicaton other users can do a git fork on the project and work on it themselves.
 
 ## Tests
-* pro
+* These are the instructions of how to test the application: 1. Create a test 2. Run the test
 
 ## License
 ![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -34,6 +34,9 @@ You can find out more about the MIT license on the open source page [here](https
 
 Please contact me via email if you have any questions about this application.
 
-* GitHub Profile: [github.com/pro](github.com/pro)
+* GitHub Profile: [github.com/marisanesmith](github.com/marisanesmith)
 
-* Email: [pro@yahoo.com](pro@yahoo.com)
+* Email: [marisanesmith@yahoo.com](marisanesmith@yahoo.com)
+
+## Video Link
+[README Video Link](https://drive.google.com/file/d/1zBxVaeRmSM8jem9r5ol2iwhWA8lsNzEJ/view?usp=sharing)
